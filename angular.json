@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "RxJsConcepts"
+    }
+  },
+  "defaultProject": "RxJsConcepts",
+  "cli": {
+    "analytics": "8c78479a-9db4-4521-b00e-40ec64df9e07"
+  }
 }
