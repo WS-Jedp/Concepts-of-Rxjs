@@ -17,6 +17,11 @@ import { FromAndOfComponent } from './Components/FromAndOf/FromAndOf.component';
 import { OperatorMapComponent } from './Components/OperatorMap/OperatorMap.component';
 import { OperatorPluckComponent } from './Components/OperatorPluck/OperatorPluck.component';
 import { OperatorMapToComponent } from './Components/OperatorMapTo/OperatorMapTo.component';
+import { OperatorFilterComponent } from './Components/OperatorFilter/OperatorFilter.component';
+import { TapOperatorComponent } from './Components/OperatorTap/Tap.component';
+import { OperatorReduceComponent } from './Components/OperatorReduce/OperatorReduce.component';
+import { OperatorScanComponent } from './Components/OperatorScan/OperatorScan.component';
+import { OperatorsOthersComponent } from './Components/OperatorOthers/OperatorsOthers.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +37,12 @@ import { OperatorMapToComponent } from './Components/OperatorMapTo/OperatorMapTo
     FromAndOfComponent,
     OperatorMapComponent,
     OperatorPluckComponent,
-    OperatorMapToComponent
+    OperatorMapToComponent,
+    OperatorFilterComponent,
+    TapOperatorComponent,
+    OperatorReduceComponent,
+    OperatorScanComponent,
+    OperatorsOthersComponent
   ],
   imports: [
     BrowserModule,
