@@ -22,6 +22,8 @@ import { TapOperatorComponent } from './Components/OperatorTap/Tap.component';
 import { OperatorReduceComponent } from './Components/OperatorReduce/OperatorReduce.component';
 import { OperatorScanComponent } from './Components/OperatorScan/OperatorScan.component';
 import { OperatorsOthersComponent } from './Components/OperatorOthers/OperatorsOthers.component';
+import { AjaxRequest } from './Components/AjaxRequest/AjaxRequest.component';
+import { AjaxGetJSONComponent } from './Components/AjaxGetJSON/AjaxGetJSON.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { OperatorsOthersComponent } from './Components/OperatorOthers/OperatorsO
     TapOperatorComponent,
     OperatorReduceComponent,
     OperatorScanComponent,
-    OperatorsOthersComponent
+    OperatorsOthersComponent,
+    AjaxRequest,
+    AjaxGetJSONComponent 
   ],
   imports: [
     BrowserModule,
